@@ -15,6 +15,26 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+		
+		
+		<form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>
+      <span>Add file:</span>
+      <input name="file" type="file"/>
+    </label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+		
       </main>
 
       <Footer />
