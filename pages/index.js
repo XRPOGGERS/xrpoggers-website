@@ -37,7 +37,9 @@ export default function Home() {
     <button type="submit">Send</button>
   </p>
 </form>
-		
+		<input type="hidden" name="form-name" value="contact">
+
+
       </main>
 
       <Footer />
